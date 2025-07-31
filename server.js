@@ -2,7 +2,7 @@ const express = require('express');
 const { MongoClient } = require('mongodb');
 const cors = require('cors')
 
-const uri = 'mongodb+srv://admin:admin@cluster0.wpgzaoh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const uri = '';
 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
